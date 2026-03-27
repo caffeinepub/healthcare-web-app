@@ -188,7 +188,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             <div
               className="flex items-center justify-center w-9 h-9 rounded-lg"
-              style={{ background: hc ? "#FFE600" : "rgba(255,255,255,0.2)" }}
+              style={{ background: hc ? "#FFE600" : "#1e3a8a" }}
             >
               <Cross size={18} style={{ color: hc ? "#000" : "#22c55e" }} />
             </div>
@@ -196,7 +196,7 @@ export default function App() {
               className="font-bold text-lg tracking-tight"
               style={{ color: hc ? "#FFE600" : "#ffffff" }}
             >
-              MediCare Connect
+              IDPS
             </span>
           </div>
 
@@ -1017,12 +1017,11 @@ export default function App() {
               className="font-bold"
               style={{ color: hc ? "#FFE600" : "#ffffff" }}
             >
-              MediCare Connect
+              IDPS
             </span>
           </div>
           <p className="text-sm" style={{ color: hc ? "#FFE600" : "#e0f2fe" }}>
-            \u00a9 {new Date().getFullYear()} MediCare Connect. All rights
-            reserved.
+            \u00a9 {new Date().getFullYear()} IDPS. All rights reserved.
           </p>
           <p className="text-xs" style={{ color: hc ? "#FFE600" : "#bae6fd" }}>
             Built with love using{" "}
